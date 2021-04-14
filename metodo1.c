@@ -1,3 +1,4 @@
-void new_lista(){
-  
+void new_lista(Lista *l){
+  l->contas = (Consumo*)malloc(MAX * sizeof(Consumo));
+  l->n = 0;
 }
